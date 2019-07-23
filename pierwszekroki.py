@@ -15,6 +15,7 @@ with open(plikorg) as f:
         pass
 
 #nie da rady bo jest z uzyciem tablic
+#drugi komentarz testuje pycadwasdharm
 theFile = open(pliknowy, 'w')
 for line in newLines:
     theFile.write(line)
