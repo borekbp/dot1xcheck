@@ -14,7 +14,7 @@ with open(plikorg) as f:
     except:
         pass
 
-
+#nie da rady bo jest z uzyciem tablic
 theFile = open(pliknowy, 'w')
 for line in newLines:
     theFile.write(line)
