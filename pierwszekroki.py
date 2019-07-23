@@ -1,23 +1,7 @@
-strings = ("_")
-newLines = []
 
-plik = 'TWR-SWT-P2_filter'
-plikorg = plik + ".txt"
-pliknowy = 'TWR-SWT-P2_liniowo.txt'
-with open(plikorg) as f:
-    try:
-        for line in f:
-            if any(s in line for s in strings):
-                newLines.append(line
-                                .replace("\nmode", "dupa")
-                               )
-    except:
-        pass
-
-#nie da rady bo jest z uwqwzyciem tablic
-#drugi komentarz testuje pycadwasdharm
-theFile = open(pliknowy, 'w')
-for line in newLines:
-    theFile.write(line)
-theFile.close()
-
+f1 = open('TWR-SWT-P2_filter.txt', 'r')
+f2 = open('TWR-SWT-P2_liniowo.txt', 'w')
+for line in f1:
+    f2.write(line.replace("mode_trunk", "trunk"))
+f1.close()
+f2.close()
