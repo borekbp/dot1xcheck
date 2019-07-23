@@ -14,7 +14,7 @@ with open(plikorg) as f:
     except:
         pass
 
-#nie da rady bo jest z uzyciem tablic
+#nie da rady bo jest z uwqwzyciem tablic
 #drugi komentarz testuje pycadwasdharm
 theFile = open(pliknowy, 'w')
 for line in newLines:
