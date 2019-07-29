@@ -1,21 +1,17 @@
 interface Gigabitethernet1/0/1
- switchport access vlan 228
- authentication port-control auto
- spanning-tree portfast edge
- spanning-tree bpdu-guard enable
- authentication order dot1x mab
- switchport mode access
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/2
- switchport access vlan 228
- authentication port-control auto
+ switchport access vlan 50
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
 
 interface Gigabitethernet1/0/3
- switchport access vlan 11
+ switchport access vlan 224
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -23,7 +19,7 @@ interface Gigabitethernet1/0/3
  switchport mode access
 
 interface Gigabitethernet1/0/4
- switchport access vlan 232
+ switchport access vlan 224
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -31,7 +27,8 @@ interface Gigabitethernet1/0/4
  switchport mode access
 
 interface Gigabitethernet1/0/5
- switchport access vlan 50
+ switchport access vlan 228
+ authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
@@ -39,14 +36,13 @@ interface Gigabitethernet1/0/5
 
 interface Gigabitethernet1/0/6
  switchport access vlan 228
- authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
 
 interface Gigabitethernet1/0/7
- switchport access vlan 224
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -54,14 +50,12 @@ interface Gigabitethernet1/0/7
  switchport mode access
 
 interface Gigabitethernet1/0/8
- switchport access vlan 224
- spanning-tree portfast edge
- spanning-tree bpdu-guard enable
- authentication order dot1x mab
- switchport mode access
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/9
- switchport access vlan 224
+ switchport access vlan 232
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -69,7 +63,7 @@ interface Gigabitethernet1/0/9
  switchport mode access
 
 interface Gigabitethernet1/0/10
- switchport access vlan 228
+ switchport access vlan 224
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -77,7 +71,7 @@ interface Gigabitethernet1/0/10
  switchport mode access
 
 interface Gigabitethernet1/0/11
- switchport access vlan 228
+ switchport access vlan 224
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -85,14 +79,15 @@ interface Gigabitethernet1/0/11
  switchport mode access
 
 interface Gigabitethernet1/0/12
- switchport access vlan 228
+ switchport access vlan 50
+ authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
 
 interface Gigabitethernet1/0/13
- switchport access vlan 228
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -108,17 +103,17 @@ interface Gigabitethernet1/0/14
  switchport mode access
 
 interface Gigabitethernet1/0/15
- switchport access vlan 224
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
+
+interface Gigabitethernet1/0/16
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
-
-interface Gigabitethernet1/0/16
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/17
  switchport access vlan 11
@@ -129,7 +124,7 @@ interface Gigabitethernet1/0/17
  switchport mode access
 
 interface Gigabitethernet1/0/18
- switchport access vlan 224
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -137,7 +132,7 @@ interface Gigabitethernet1/0/18
  switchport mode access
 
 interface Gigabitethernet1/0/19
- switchport access vlan 228
+ switchport access vlan 224
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -150,7 +145,7 @@ interface Gigabitethernet1/0/20
  switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/21
- switchport access vlan 228
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -158,12 +153,14 @@ interface Gigabitethernet1/0/21
  switchport mode access
 
 interface Gigabitethernet1/0/22
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
+ switchport access vlan 224
+ spanning-tree portfast edge
+ spanning-tree bpdu-guard enable
+ authentication order dot1x mab
+ switchport mode access
 
 interface Gigabitethernet1/0/23
- switchport access vlan 232
+ switchport access vlan 228
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -171,7 +168,7 @@ interface Gigabitethernet1/0/23
  switchport mode access
 
 interface Gigabitethernet1/0/24
- switchport access vlan 232
+ switchport access vlan 228
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -179,7 +176,7 @@ interface Gigabitethernet1/0/24
  switchport mode access
 
 interface Gigabitethernet1/0/25
- switchport access vlan 228
+ switchport access vlan 11
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -195,7 +192,7 @@ interface Gigabitethernet1/0/26
  switchport mode access
 
 interface Gigabitethernet1/0/27
- switchport access vlan 228
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -203,7 +200,7 @@ interface Gigabitethernet1/0/27
  switchport mode access
 
 interface Gigabitethernet1/0/28
- switchport access vlan 224
+ switchport access vlan 11
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -211,7 +208,7 @@ interface Gigabitethernet1/0/28
  switchport mode access
 
 interface Gigabitethernet1/0/29
- switchport access vlan 224
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -227,7 +224,7 @@ interface Gigabitethernet1/0/30
  switchport mode access
 
 interface Gigabitethernet1/0/31
- switchport access vlan 228
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -235,20 +232,20 @@ interface Gigabitethernet1/0/31
  switchport mode access
 
 interface Gigabitethernet1/0/32
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
-
-interface Gigabitethernet1/0/33
- switchport access vlan 11
+ switchport access vlan 232
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
 
+interface Gigabitethernet1/0/33
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
+
 interface Gigabitethernet1/0/34
- switchport access vlan 11
+ switchport access vlan 50
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -256,8 +253,7 @@ interface Gigabitethernet1/0/34
  switchport mode access
 
 interface Gigabitethernet1/0/35
- switchport access vlan 224
- authentication port-control auto
+ switchport access vlan 228
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
@@ -272,15 +268,12 @@ interface Gigabitethernet1/0/36
  switchport mode access
 
 interface Gigabitethernet1/0/37
- switchport access vlan 224
- authentication port-control auto
- spanning-tree portfast edge
- spanning-tree bpdu-guard enable
- authentication order dot1x mab
- switchport mode access
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/38
- switchport access vlan 224
+ switchport access vlan 11
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -288,18 +281,22 @@ interface Gigabitethernet1/0/38
  switchport mode access
 
 interface Gigabitethernet1/0/39
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
+ switchport access vlan 232
+ spanning-tree portfast edge
+ spanning-tree bpdu-guard enable
+ authentication order dot1x mab
+ switchport mode access
 
 interface Gigabitethernet1/0/40
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
+ switchport access vlan 228
+ authentication port-control auto
+ spanning-tree portfast edge
+ spanning-tree bpdu-guard enable
+ authentication order dot1x mab
+ switchport mode access
 
 interface Gigabitethernet1/0/41
- switchport access vlan 232
- authentication port-control auto
+ switchport access vlan 228
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
@@ -314,7 +311,7 @@ interface Gigabitethernet1/0/42
  switchport mode access
 
 interface Gigabitethernet1/0/43
- switchport access vlan 224
+ switchport access vlan 11
  authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
@@ -322,6 +319,11 @@ interface Gigabitethernet1/0/43
  switchport mode access
 
 interface Gigabitethernet1/0/44
+ description uplink
+ switchport mode trunk
+ switchport trunk alowed vlan 2-20, 44, 200-299
+
+interface Gigabitethernet1/0/45
  switchport access vlan 228
  authentication port-control auto
  spanning-tree portfast edge
@@ -329,17 +331,13 @@ interface Gigabitethernet1/0/44
  authentication order dot1x mab
  switchport mode access
 
-interface Gigabitethernet1/0/45
- switchport access vlan 228
+interface Gigabitethernet1/0/46
+ switchport access vlan 224
+ authentication port-control auto
  spanning-tree portfast edge
  spanning-tree bpdu-guard enable
  authentication order dot1x mab
  switchport mode access
-
-interface Gigabitethernet1/0/46
- description uplink
- switchport mode trunk
- switchport trunk alowed vlan 2-20, 44, 200-299
 
 interface Gigabitethernet1/0/47
  switchport access vlan 224

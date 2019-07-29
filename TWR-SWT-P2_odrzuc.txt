@@ -1,0 +1,17 @@
+
+TWR-SWT-P2_Gi1/0/3 vlan_11 dot1x_ok mode_access
+TWR-SWT-P2_Gi1/0/5 vlan_50 mode_access
+TWR-SWT-P2_Gi1/0/8 vlan_ok mode_access
+TWR-SWT-P2_Gi1/0/12 vlan_ok mode_access
+TWR-SWT-P2_Gi1/0/16 mode_trunk
+TWR-SWT-P2_Gi1/0/17 vlan_11 dot1x_ok mode_access
+TWR-SWT-P2_Gi1/0/20 mode_trunk
+TWR-SWT-P2_Gi1/0/22 mode_trunk
+TWR-SWT-P2_Gi1/0/32 mode_trunk
+TWR-SWT-P2_Gi1/0/33 vlan_11 dot1x_ok mode_access
+TWR-SWT-P2_Gi1/0/34 vlan_11 dot1x_ok mode_access
+TWR-SWT-P2_Gi1/0/39 mode_trunk
+TWR-SWT-P2_Gi1/0/40 mode_trunk
+TWR-SWT-P2_Gi1/0/45 vlan_ok mode_access
+TWR-SWT-P2_Gi1/0/46 mode_trunk
+TWR-SWT-P2_Gi1/0/48 mode_trunk

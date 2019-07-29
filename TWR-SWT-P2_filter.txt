@@ -1,167 +1,172 @@
-TWR-SWT-P2_Gi1/0/1
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/2
-mode_trunk
-TWR-SWT-P2_Gi1/0/3
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/4
-mode_trunk
-TWR-SWT-P2_Gi1/0/5
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/6
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/7
-access_vlan_ok
-mode_access
-TWR-SWT-P2_Gi1/0/8
-mode_trunk
-TWR-SWT-P2_Gi1/0/9
-mode_trunk
-TWR-SWT-P2_Gi1/0/10
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/11
-mode_trunk
-TWR-SWT-P2_Gi1/0/12
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/13
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/14
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/15
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/16
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/17
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/18
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/19
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/20
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/21
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/22
-mode_trunk
-TWR-SWT-P2_Gi1/0/23
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/24
-mode_trunk
-TWR-SWT-P2_Gi1/0/25
-access_vlan_ok
-mode_access
-TWR-SWT-P2_Gi1/0/26
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/27
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/28
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/29
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/30
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/31
-access_vlan_ok
-mode_access
-TWR-SWT-P2_Gi1/0/32
-mode_trunk
-TWR-SWT-P2_Gi1/0/33
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/34
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/35
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/36
-mode_trunk
-TWR-SWT-P2_Gi1/0/37
-mode_trunk
-TWR-SWT-P2_Gi1/0/38
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/39
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/40
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/41
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/42
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/43
-mode_trunk
-TWR-SWT-P2_Gi1/0/44
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/45
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/46
-access_vlan_50
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/47
-access_vlan_ok
-dot1x_ok
-mode_access
-TWR-SWT-P2_Gi1/0/48
-access_vlan_ok
-dot1x_ok
-mode_access
+interface Gigabitethernet1/0/1
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/2
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/3
+ switchport access vlan 11
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/4
+ switchport access vlan 232
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/5
+ switchport access vlan 50
+ switchport mode access
+interface Gigabitethernet1/0/6
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/7
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/8
+ switchport access vlan 224
+ switchport mode access
+interface Gigabitethernet1/0/9
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/10
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/11
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/12
+ switchport access vlan 228
+ switchport mode access
+interface Gigabitethernet1/0/13
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/14
+ switchport access vlan 232
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/15
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/16
+ switchport mode trunk
+interface Gigabitethernet1/0/17
+ switchport access vlan 11
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/18
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/19
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/20
+ switchport mode trunk
+interface Gigabitethernet1/0/21
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/22
+ switchport mode trunk
+interface Gigabitethernet1/0/23
+ switchport access vlan 232
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/24
+ switchport access vlan 232
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/25
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/26
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/27
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/28
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/29
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/30
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/31
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/32
+ switchport mode trunk
+interface Gigabitethernet1/0/33
+ switchport access vlan 11
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/34
+ switchport access vlan 11
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/35
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/36
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/37
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/38
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/39
+ switchport mode trunk
+interface Gigabitethernet1/0/40
+ switchport mode trunk
+interface Gigabitethernet1/0/41
+ switchport access vlan 232
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/42
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/43
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/44
+ switchport access vlan 228
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/45
+ switchport access vlan 228
+ switchport mode access
+interface Gigabitethernet1/0/46
+ switchport mode trunk
+interface Gigabitethernet1/0/47
+ switchport access vlan 224
+ authentication port-control auto
+ switchport mode access
+interface Gigabitethernet1/0/48
+ switchport mode trunk
